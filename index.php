@@ -65,24 +65,29 @@
         </section>
 
         <section id="contacto" class="seccion-contacto">
-            <div>
-                <div class="info-contacto">
-                    <h3>¿Dónde estamos?</h3>
-                    <ul class="datos-lista">
-                        <li>C. Isla de el Hierro 8, Valsequillo</li>
-                        <li>+34 600 00 00 00</li>
-                        <li>info@enaclass.com</li>
-                    </ul>
-                </div>
-                <div class="botones-contacto">
-                    <a href="mailto:info@enaclass.com" class="boton-blanco">Enviar Email</a>
-                    <a href="tel:+34600000000" class="boton-llamada">Llamar ahora</a>
-                </div>
-                <div mapa-marco>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.7664066750513!2d-15.497188499999968!3d27.991888500000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40974add61f355%3A0x1ed0d13f5fac8407!2sCentro%20de%20estudios%20Enaclas!5e0!3m2!1ses!2ses!4v1777294621680!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contenedor-contacto"> 
+        
+                <div class="bloque-izquierda">
+                    <div class="info-contacto">
+                        <h3>¿Dónde estamos?</h3>
+                        <ul class="datos-lista">
+                            <li>C. Isla de el Hierro 8, Valsequillo</li>
+                            <li>+34 600 00 00 00</li>
+                            <li>info@enaclass.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="botones-contacto">
+                        <a href="mailto:info@enaclass.com" class="boton-blanco">Enviar Email</a>
+                        <a href="tel:+34600000000" class="boton-llamada">Llamar ahora</a>
+                    </div>
+            </div>
+
+                <div class="mapa-marco">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.7664066750513!2d-15.497188499999968!3d27.991888500000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40974add61f355%3A0x1ed0d13f5fac8407!2sCentro%20de%20estudios%20Enaclas!5e0!3m2!1ses!2ses!4v1777294621680!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-        </section>
+</section>
     </main>
 </body>
 </html>

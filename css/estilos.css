@@ -220,3 +220,79 @@ body {
     font-weight: 800;
     margin-bottom: 10px;
 }
+
+/* Estilos contacto y mapa */
+
+.seccion-contacto {
+    padding: 80px 0;
+    background-color: var(--color-fondo);
+}
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1100px; /* Un poco más estrecho */
+    margin: 0 auto;
+}
+
+.bloque-izquierda {
+    flex: 1;
+    max-width: 400px; /* Si no se estiran demasiado */
+}
+
+.bloque-izquierda h3 {
+    color: var(--violeta);
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.datos-lista {
+    list-style: none; /* Para quitar los puntos negros de la lista */
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.datos-lista li {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    font-weight: 500;
+}
+
+.botones-contacto {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.boton-blanco {
+    text-decoration: none;
+    color: var(--violeta);
+    font-weight: 600;
+}
+
+.boton-llamada {
+    background-color: var(--naranja);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.mapa-marco {
+    flex: 1.2;
+    background: white;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.mapa-marco iframe {
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+}
