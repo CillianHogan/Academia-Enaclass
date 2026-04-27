@@ -180,6 +180,7 @@ body {
     padding: 40px 20px;
     width: 300px;
     text-align: center;
+    border-radius: 20px;
 }
 
 
@@ -197,3 +198,25 @@ body {
     font-weight: 500;
 }
 
+/* Estilos barra de estadísticas index */
+
+.barra-estadisticas {
+    background-color: #0f172a;
+    padding: 60px 0;
+    color: var(--texto-claro);
+    text-align: center;
+}
+
+.caja-datos {
+    display: flex;
+    justify-content: space-around; /* Para espaciarlos equitativamente*/
+    align-items: center;
+}
+
+.cifra {
+    display: block; /* Para que el texto baje, si no iria todo en la misma linea */
+    color: var(--naranja);
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
