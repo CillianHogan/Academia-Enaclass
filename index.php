@@ -46,6 +46,23 @@
                 </article>
             </div>
         </section>
+
+        <section class="barra-estadisticas">
+            <div class="contenedor caja-datos">
+                <div class="estadistica-item">
+                    <span class="cifra">+100</span>
+                    <p>Alumnos</p>
+                </div>
+                <div class="estadistica-item">
+                    <span class="cifra">+5</span>
+                    <p>Años</p>
+                </div>
+                <div class="estadistica-item">
+                    <span class="cifra">100%</span>
+                    <p>Resultados</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
