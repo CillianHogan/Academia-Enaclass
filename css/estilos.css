@@ -1,0 +1,121 @@
+/* Configuración inicial de variables y elementos reutilizables en todas las páginas (body, header, footer etc)*/
+
+/* Colores de la academia, colores principales de la página y fuente principal */
+
+:root {
+    --violeta: #5b21b6;
+    --celeste: #0ea5e9;
+    --naranja: #f97316;
+    --verde: #16a34a;
+    --texto-oscuro:#1f2937;
+    --texto-claro: #ffffff;
+    --color-fondo: #f9fafb;
+
+    --fuente-principal: 'Segoe UI', Tahoma, Geneva;
+}
+
+/* reset para quitar variables por defecto de los navegadores */
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /* importante para que el padding no sume al ancho total */
+}
+
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--texto-oscuro);
+    line-height: 1.6;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto; /* Para centrar el bloque horizontalmente y que no se amontone */
+    padding: 0 20px;
+}
+
+/*  Estilos del header */
+
+.encabezado-inicio {
+    background-color: var(--violeta);
+    color: var(--texto-claro);
+    padding: 15px 0;
+    position: relative; 
+    width: 100%;
+}
+
+.encabezado-inicio a {
+    text-decoration: none; /* No se porqué no se aplicó en el logo academia así que lo pongo aquí*/
+}
+
+.encabezado-inicio .contenedor {
+    display: flex; /* Activar flexbox*/
+    justify-content: space-between; /* Separar elementos del header a los extremos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos logo */
+
+.logo-academia {
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none; /* quitamos subrayado del enlace del logo */
+    color: var(--texto-claro)
+}
+
+/* Estilos menu derecha */
+
+.menu-derecha {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* para que cada enlace y botón mantenga espacio entre si */
+}
+
+/* Estilos enlaces del menú */
+
+.menu-derecha a {
+    text-decoration: none;
+    color: var(--texto-claro);
+    font-weight: 500;
+    transition: color 0.3s ease; /* Para que la transición no sea bruca cuando pasamos el hover */
+}
+
+.menu-derecha a:hover {
+    color: var(--celeste);
+}
+
+/* Estilos botón contacto */ 
+
+.menu-derecha .boton-contacto {
+    background-color: var(--naranja);
+    color: var(--texto-claro);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.3 ease;
+}
+
+.menu-derecha .boton-contacto:hover {
+    background-color: #d16113; /* un tono de naranja un poco más oscuro */
+    color: var(--celeste)
+}
+
+/* Estilos botón modo oscuro */ 
+
+.boton-modo-oscuro {
+    background-color: none;
+    border: 2px solid var(--texto-claro);
+    color: var(--celeste);
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer; /* para que el cursor cambie a una mano */ 
+    font-weight: 500;
+    transition: all 0.3s ease; /* transición que afecta a todo */ 
+}
+
+.boton-modo-oscuro:hover {
+    background-color: var(--texto-claro);
+    color: var(--violeta);
+}
+
