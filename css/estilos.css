@@ -296,3 +296,29 @@ body {
     border-radius: 15px;
     display: block;
 }
+
+/* Estilos footer */
+
+.pie-pagina {
+    background-color: #0f172a; /* Mismo color que en las estadísticas */
+    color: var(--texto-claro);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.pie-pagina p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.rayita-naranja {
+    width: 50px; 
+    height: 4px; 
+    background-color: var(--naranja);
+    margin: 15px auto; /* Centrada horizontalmente */
+    border-radius: 2px;
+}
+
+.copyright {
+    font-size: 14px;
+}

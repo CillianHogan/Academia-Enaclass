@@ -87,7 +87,16 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.7664066750513!2d-15.497188499999968!3d27.991888500000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40974add61f355%3A0x1ed0d13f5fac8407!2sCentro%20de%20estudios%20Enaclas!5e0!3m2!1ses!2ses!4v1777294621680!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-</section>
+        </section>
     </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <p>Academia Enaclass - Valsequillo, Gran Canaria</p>
+            <div class="rayita-naranja"></div>
+            <p class="copyright">© 2026 Todos los derechos reservados</p>
+        </div>
+    </footer>
+
 </body>
 </html>
