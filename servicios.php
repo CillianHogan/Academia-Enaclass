@@ -22,7 +22,7 @@
     </header>
 
     <main>
-        <section class="sección-titulo-servicios">
+        <section class="seccion-titulo-servicios">
             <div class="contenedor">
                 <h2>Nuestros servicios</h2>
                 <p>Formación personalizada y herramientas digitales para tu día a día.</p>

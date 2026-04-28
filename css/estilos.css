@@ -322,3 +322,76 @@ body {
 .copyright {
     font-size: 14px;
 }
+
+
+
+
+/* Estilos servicios */
+
+.seccion-titulo-servicios {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.seccion-titulo-servicios h2 {
+    font-size: 38px;
+    color: var(--violeta);
+    margin-bottom: 10px;
+}
+
+.zona-servicios {
+    background-color: var(--color-fondo);
+    padding: 80px 0;
+}
+
+.rejilla-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.tarjeta-info {
+    background: white;
+    padding: 30px;
+    width: 45%; /* 2 por fila */
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.tarjeta-info h3 {
+    color: var(--naranja);
+    margin-bottom: 15px;
+}
+
+/* Estilos preguntas frecuentes */
+.seccion-preguntas {
+    padding: 80px 0;
+}
+
+.contenedor-pequeño {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 15px;
+}
+
+.titulo-preguntas {
+    text-align: center;
+    color: var(--violeta);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.bloque-pregunta {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.bloque-pregunta h4 {
+    color: var(--violeta);
+    margin-bottom: 10px;
+}
