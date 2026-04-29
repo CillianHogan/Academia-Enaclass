@@ -395,3 +395,80 @@ body {
     color: var(--violeta);
     margin-bottom: 10px;
 }
+
+/* >Estilos del login */
+
+.pagina-login {
+    background-color: var(--color-fondo);
+    min-height: 80vh; /* para q el footer quede abajo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.caja-entrada {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px; 
+    text-align: center;
+}
+
+.cabecera-login h2 {
+    color: var(--violeta);
+    margin-bottom: 10px;
+}
+
+.formulario-acceso {
+    margin-top: 30px;
+    text-align: left; 
+}
+
+.campo-grupo {
+    margin-bottom: 20px;
+}
+
+.campo-grupo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--violeta);
+}
+
+.entrada-estilo {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.boton-entrar-login {
+    background-color: var(--naranja);
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.boton-entrar-login:hover {
+    background-color: var(--violeta);
+}
+
+.ayuda-login {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.ayuda-login a {
+    color: var(--naranja);
+    text-decoration: none;
+    font-weight: bold;
+}
