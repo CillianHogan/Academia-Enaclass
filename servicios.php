@@ -16,7 +16,7 @@
                 <button id="boton-oscuro" class="boton-modo-oscuro">Modo oscuro</button>
                 <a href="index.php">Inicio</a>
                 <a href="servicios.php">Servicios</a>
-                <a href="#contacto" class="boton-contacto">Contacto</a>
+                <a href="index.php#contacto" class="boton-contacto">Contacto</a>
             </nav>
         </div>
     </header>

@@ -176,7 +176,7 @@ body {
 
 .tarjeta-servicio {
     background: white;
-    border: 4px solid var(--violeta);
+    border: 1px solid #ddd;
     padding: 40px 20px;
     width: 300px;
     text-align: center;
