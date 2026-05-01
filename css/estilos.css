@@ -22,11 +22,24 @@
     box-sizing: border-box; /* importante para que el padding no sume al ancho total */
 }
 
-body {
+html, body {
     font-family: var(--fuente-principal);
     background-color: var(--color-fondo);
     color: var(--texto-oscuro);
     line-height: 1.6;
+    height: 100%;
+    margin: 0;
+}
+
+.cuerpo-web {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .contenedor {
@@ -309,6 +322,7 @@ body {
 .pie-pagina p {
     font-size: 16px;
     margin: 10px 0;
+    flex-shrink: 0;
 }
 
 .rayita-naranja {
@@ -490,5 +504,51 @@ body {
 .bienvenida-usuario h2 {
     color: var(--violeta);
     font-size: 32px;
+}
+
+.rejilla-opciones {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.caja-opcion {
+    text-decoration: none;
+    color: black;
+    width: 48%;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+.ancho-total {
+    width: 100%;
+}
+
+.contenido-caja h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.color-asignaturas h3 {
+    color: var(--celeste);
+}
+
+.color-notas h3 {
+    color: var(--verde);
+}
+
+.color-asistencia h3 {
+    color: var(--naranja);
+}
+
+.color-facturas h3 {
+    color: var(--violeta);
+}
+
+.color-foro h3 {
+    color: black;
 }
 
