@@ -38,28 +38,28 @@
                 </div>
             </a>
 
-            <a href="#" class="caja-opcion color-asignaturas">
+            <a href="#" class="caja-opcion color-notas">
                 <div class="contenido-caja">
                     <h3>Mis Notas</h3>
                     <p>Haz clic aquí para ver las notas que has sacado.</p>
                 </div>
             </a>
 
-            <a href="#" class="caja-opcion color-asignaturas">
+            <a href="#" class="caja-opcion color-asistencia">
                 <div class="contenido-caja">
                     <h3>Asistencia</h3>
                     <p>Consulta tu historial de presencia y faltas.</p>
                 </div>
             </a>
 
-            <a href="#" class="caja-opcion color-asignaturas">
+            <a href="#" class="caja-opcion color-facturas">
                 <div class="contenido-caja">
-                    <h3>Mis Recibos</h3>
+                    <h3>Mis Facturas</h3>
                     <p>Historial de pagos y descarga de facturas.</p>
                 </div>
             </a>
 
-            <a href="#" class="caja-opcion color-asignaturas">
+            <a href="#" class="caja-opcion color-foro ancho-total">
                 <div class="contenido-caja">
                     <h3>Foro de Dudas</h3>
                     <p>Pregunta lo que quieras a los profesores.</p>

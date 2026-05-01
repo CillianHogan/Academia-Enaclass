@@ -396,7 +396,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* >Estilos del login */
+/* Estilos del login */
 
 .pagina-login {
     background-color: var(--color-fondo);
@@ -472,3 +472,23 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
+
+
+/* area de estudiante */
+
+.contenedor-panel {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.bienvenida-usuario {
+    margin-bottom: 40px;
+}
+
+.bienvenida-usuario h2 {
+    color: var(--violeta);
+    font-size: 32px;
+}
+
