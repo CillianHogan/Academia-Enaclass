@@ -110,6 +110,41 @@
                 </form>
             </section>
 
+            <section class="caja-herramienta borde azul">
+                <h3>Subir Material Didáctico</h3>
+                <form action="#" method="POST" enctype="multipart/form-data">
+                    <div class="fila-input">
+                        <label>Título del archivo</label>
+                        <input type="text" class="input-diseño" placeholder="Ej: Tema 1 - Verbo To Be">
+                    </div>
+
+                    <div class="fila-input">
+                        <label>Elige a que alumnos enviar el material:</label>
+                            <div class="selector-multi-almunos">
+                                <label class="opcion-alumno">
+                                    <input type="checkbox" name="alumnos_destino[]" value="1"> Carlos Sánchez
+                                </label>
+                                <label class="opcion-alumno">
+                                    <input type="checkbox" name="alumnos_destino[]" value="2"> David Sola
+                                </label>
+                                <label class="opcion-alumno">
+                                    <input type="checkbox" name="alumnos_destino[]" value="3"> David Jiménez
+                                </label>
+                                <label class="opcion-alumno">
+                                    <input type="checkbox" name="alumnos_destino[]" value="4"> Carmelo Navarro
+                                </label>
+                            </div>
+                        <small class="ayuda-formulario">Marca los alumnos que recibirán el archivo.</small>
+                    </div>
+
+                    <div class="fila-input">
+                        <label>Seleccionar archivo</label>
+                        <input type="file" class="input-diseño">
+                    </div>
+                    <button type="submit" class="boton-accion-lila">Publicar Material</button>
+                </form>
+            </section>
+
         </div>
         
     </main>
