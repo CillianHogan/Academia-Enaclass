@@ -64,8 +64,50 @@
                                 <option value="">Selecciona un alumno...</option>
                             </select>
                         </div>
-                        <button type"submit" class="boton-accion-lila">VINCULAR TUTOR</button>
+                        <button type="submit" class="boton-accion-lila">VINCULAR TUTOR</button>
                     </form>
+            </section>
+
+            <section class="caja-herramienta borde-azul ancho-completo">
+                <h3>Alumnos Registrados</h3>
+                <div class="tabla-scroll">
+                    <table class="tabla-gestion">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Email</th>
+                                <th>Accion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nombre de ejemplo</td>
+                                <td>ejemplo@enaclass.com</td>
+                                <td><a href="#" class="enlace-baja">Baja</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="caja-herramienta borde-violeta">
+                <h3>Pasar Lista</h3>
+                <form action="#" method="POST">
+                    <div class="fila-input">
+                        <label>Fecha:</label>
+                        <input type="date" nombre="fecha" class="input-diseño">
+                    </div>
+                    <table class="tabla-gestion">
+                        <thead><tr><th>Alumno</th><th>Estado</th></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td>Alumno de prueba</td>
+                                <td><select class="input-diseño"><option>Presente</option><option>Falta</option></select></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button type="submit" class="boton-accion-lila">Guardar Asistencia</button>
+                </form>
             </section>
 
         </div>
