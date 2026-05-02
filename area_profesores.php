@@ -145,6 +145,35 @@
                 </form>
             </section>
 
+            <section class="caja-herramienta borde-azul ancho-completo">
+                <h3>Foro: Responder Consultas</h3>
+                <div class="tabla-scroll">
+                    <table class="tabla-gestion">
+                        <thead>
+                            <tr>
+                                <th>Alumno y Pregunta</th>
+                                <th>Tu respuesta</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Paco Díaz</strong>
+                                    <p>¿Hay clase el lunes?</p>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="Escribe tu respuesta..." class="input-diseño">
+                                </td>
+                                <td>
+                                    <button type="submit" class="boton-responder">Enviar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
         </div>
         
     </main>
