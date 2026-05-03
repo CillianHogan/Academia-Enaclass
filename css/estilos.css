@@ -559,6 +559,14 @@ main {
 }
 
 
+/* area gestión de alumnos (mayoría de clases recicladas) */
+
+.color-admin-alumnos h3 {
+    color: var(--celeste);
+    margin-bottom: 10px;
+}
+
+
 
 
 
