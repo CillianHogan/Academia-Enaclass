@@ -568,15 +568,14 @@ main {
 
 
 
-/* --- ALTA DE USUARIOS: ESTILO FINAL --- */
+/* Estilos alta usuarios, uso el .pagina-alta para reutilizar clases pero sin modificar las anteriores */
 
-/* 1. Forzamos que las tarjetas midan lo mismo de alto */
 .pagina-alta .rejilla-opciones {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    align-items: stretch; /* Crucial para nivelar las cajas */
+    align-items: stretch; 
 }
 
 .pagina-alta .caja-herramienta {
@@ -584,13 +583,11 @@ main {
     padding: 40px;
     border-radius: 15px;
     border: 1px solid #eee;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     display: flex;
-    flex-direction: column; /* Organiza el contenido en columna */
-    width: 48%; /* Mantiene el diseño de dos columnas */
+    flex-direction: column; 
+    width: 48%; 
 }
 
-/* Títulos con jerarquía */
 .pagina-alta .caja-herramienta h3 {
     margin-bottom: 30px;
     font-size: 22px;
@@ -600,14 +597,14 @@ main {
     padding-bottom: 5px;
 }
 
-/* Estructura del formulario para permitir el empuje del botón */
+
 .pagina-alta .formulario-admin {
     display: flex;
     flex-direction: column;
-    flex-grow: 1; /* El formulario se estira para llenar la caja */
+    flex-grow: 1; 
 }
 
-/* Filas de input con aire */
+
 .pagina-alta .fila-input {
     margin-bottom: 25px;
     display: flex;
@@ -621,14 +618,12 @@ main {
     font-size: 15px;
 }
 
-/* Estética de los inputs */
 .pagina-alta .input-diseño {
-    background-color: #fcfcfc;
+    background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 12px 15px;
     font-size: 16px;
-    transition: all 0.3s ease;
 }
 
 .pagina-alta .input-diseño:focus {
@@ -638,10 +633,10 @@ main {
     background-color: #fff;
 }
 
-/* BOTONES: Centrados y perfectamente alineados horizontalmente */
+
 .pagina-alta .boton-accion-lila {
-    margin-top: auto;   /* El imán que los pega a la base de la tarjeta */
-    align-self: center; /* Los centra horizontalmente dentro de su tarjeta */
+    margin-top: auto;   
+    align-self: center; 
     padding: 15px 35px;
     background-color: var(--violeta);
     color: white;
@@ -649,14 +644,11 @@ main {
     border-radius: 10px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(106, 90, 205, 0.3);
     transition: 0.3s;
 }
 
 .pagina-alta .boton-accion-lila:hover {
     background-color: #5a4db8;
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(106, 90, 205, 0.4);
 }

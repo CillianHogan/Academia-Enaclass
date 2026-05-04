@@ -147,7 +147,7 @@
 
             <section class="caja-herramienta borde-naranja ancho-completo">
                 <h3>Crear Nuevo Test Evaluativo</h3>
-                <form action="guardar_test.php" method="POST" class="formulario-admin">
+                <form action="#" method="POST" class="formulario-admin">
                     
                     <div class="fila-ajustes-examen">
                         <div class="fila-input">
