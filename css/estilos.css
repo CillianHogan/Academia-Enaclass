@@ -701,3 +701,115 @@ main {
     font-size: 12px;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+/* --- ESTILO ASISTENCIA: COHERENCIA TOTAL --- */
+
+/* 1. La tarjeta blanca con el mismo "alma" que las altas */
+.pagina-asistencia .caja-herramienta {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Título con la rayita naranja característica */
+.pagina-asistencia .caja-herramienta h3 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid var(--naranja);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* 2. Formulario y filas con aire */
+.pagina-asistencia .formulario-admin {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.pagina-asistencia .fila-input {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* El aire entre texto e input */
+}
+
+.pagina-asistencia .fila-input label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* 3. Inputs y Selects con estilo moderno */
+.pagina-asistencia .input-diseño {
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.pagina-asistencia .input-diseño:focus {
+    border-color: var(--violeta);
+    box-shadow: 0 0 8px rgba(106, 90, 205, 0.2);
+    outline: none;
+}
+
+/* 4. Tabla de asistencia limpia */
+.pagina-asistencia .tabla-gestion {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.pagina-asistencia .tabla-gestion th {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 2px solid #eee;
+    color: #666;
+}
+
+.pagina-asistencia .tabla-gestion td {
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* 5. EL BOTÓN CON CARIÑO (Igual que en altas) */
+.pagina-asistencia .boton-accion-lila {
+    margin-top: auto;   /* Se pega al fondo si la tarjeta crece */
+    align-self: center; /* Centrado horizontal */
+    padding: 15px 40px;
+    background: linear-gradient(135deg, var(--violeta) 0%, #5a4db8 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(106, 90, 205, 0.3);
+    transition: all 0.3s ease;
+}
+
+.pagina-asistencia .boton-accion-lila:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(106, 90, 205, 0.4);
+    filter: brightness(1.1);
+}
+
+.pagina-asistencia .boton-accion-lila:active {
+    transform: translateY(-1px);
+}
