@@ -652,3 +652,52 @@ main {
     background-color: #5a4db8;
     transform: translateY(-2px);
 }
+
+/* Estilos lista de alumnos / perfil profesores */
+
+.pagina-listado .tabla-scroll {
+    margin-top: 20px;
+}
+
+.pagina-listado .tabla-gestion {
+    width: 100%;
+    text-align: left;
+}
+
+.pagina-listado .tabla-gestion th {
+    background-color: #f4f7f6;
+    color: #555;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid #eee;
+}
+
+.pagina-listado .tabla-gestion td {
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #333;
+}
+
+
+.pagina-listado .enlace-baja {
+    color: #eb093a; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.pagina-listado .enlace-baja:hover {
+    background-color: #fae9ea;
+    text-decoration: underline;
+}
+
+.pagina-listado .tag-estado {
+    background-color: #d4fce1;
+    color: #18743b;
+    padding: 4px 10px;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: bold;
+}
